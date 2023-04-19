@@ -1,0 +1,110 @@
+/* Colores
+celestito rgb(121, 213, 255) #79d5f
+blanquito white
+doradito gold
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header{
+    background-color: #79d5ff;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif, 'Times New Roman', Times, serif, Cochin, Georgia, Times, 'Times New Roman', serif, Helvetica, sans-serif, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Times, serif, Tahoma, Geneva, Verdana, sans-serif, 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     border-color: gold;
+     border-style: solid;
+    word-spacing: 10px;
+}
+
+.ul-header{
+    display: flex;
+    align-items: center;
+    width: 500px;
+    justify-content: space-between;
+}
+
+li{
+    list-style: none;
+}
+
+.footer{
+    background-color: #79d5ff;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif, 'Times New Roman', Times, serif, Cochin, Georgia, Times, 'Times New Roman', serif, Helvetica, sans-serif, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Times, serif, Tahoma, Geneva, Verdana, sans-serif, 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     border-color: gold;
+     border-style: solid;
+}
+
+.ul-footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+h1{
+    font-family: "bagnard";
+}
+
+/* ------INDEX------ */
+@font-face {
+    font-family: "bagnard";
+    src: url(../recursos/Bagnard.otf);
+}
+#main-index{
+    font-size: 25px;
+    font-family: "bagnard";
+}
+
+/* ------NOTICIAS------ */
+.noticias-grid{  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: 1fr;
+    gap: 0px 0px;
+    padding: 50px;
+    grid-auto-flow: column;
+    grid-template-areas:
+      "noti-1 noti-2 noti-3"
+      "noti-1 noti-2 noti-3"
+      "noti-1 noti-2 noti-3"
+      "noti-1 noti-2 noti-3";
+  }
+  
+  .noti-1 { grid-area: noti-1; }
+  
+  .noti-2 { grid-area: noti-2; }
+  
+  .noti-3 { grid-area: noti-3; }
+  
+.noti-1 img{
+    height: 150px;
+    width: 150px;
+}
+
+.noti-2 img{
+    height: 150px;
+    width: 150px;
+}
+
+.noti-3 img{
+    height: 150px;
+    width: 150px;
+}
+/* ------ACTUALIDAD------ */
+#main-actual{
+    font-family: "bagnard";
+    font-size: 20px;
+}
+
+/* ------HISTORIA------ */
+#main-historia{
+    font-family: "bagnard";
+    font-size: 20px;
+}
+
+
+
