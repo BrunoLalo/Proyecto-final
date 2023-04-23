@@ -8,6 +8,7 @@ doradito gold
     padding: 0;
 }
 /* ------HEADER------ */
+
 .collapse{
     flex-basis: auto;
     flex-direction: row;
@@ -21,9 +22,9 @@ doradito gold
 border: gold 5px solid;     
 background-color: #79d5ff93;
 font-size: large;
-margin: 0px;
+padding: auto;
 }
-.header img{
+.navbar img{
 height: 100px;
 }
 /* ------FOOTER------ */
@@ -101,6 +102,7 @@ p{
     align-items: center;
     justify-content: space-evenly;
     padding-bottom: 40px;
+    flex-wrap: wrap;
 }
 .index-1:hover{
     transform: scale(1.1);
@@ -130,6 +132,7 @@ p{
     padding-bottom: 70px;
 }
 .col-noti{
+    display: flex;
     padding: 50px;
 }
 .col-noti:hover{
@@ -169,10 +172,11 @@ width: 110px;
 height: 50px;
 background-color: rgb(24, 124, 255);
 color: rgb(0, 0, 0);
+border-radius: 15px;
 }
 .main-act a button:hover{
     transform: scale(1.1);
-    transition: 0.5s;
+    transition: 0.4s;
     background-color: #292828;
     color: white;
 }
@@ -231,10 +235,11 @@ color: rgb(0, 0, 0);
     height: 50px;
     background-color: rgb(24, 124, 255);
     color: rgb(0, 0, 0);
+    border-radius: 15px;
     }
     .main-hist a button:hover{
         transform: scale(1.1);
-        transition: 0.5s;
+        transition: 0.4s;
         background-color: #292828;
         color: white;
 }
@@ -265,6 +270,11 @@ color: rgb(0, 0, 0);
 }
 
 /* ------CONTACTO------ */
+.form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 .form-floating{
     text-align: center;
     width: 500px;
@@ -275,18 +285,13 @@ color: rgb(0, 0, 0);
     font-family: "bagnard";
     margin-top: 30px;
 }
-.input-group{
-    margin-left: 700px;
-    margin-bottom: 10px;
-    width: 500px;
-}
+
 
 input:hover{
     transform: scale(1.1);
 }
 
 .enviar{
-margin-left: 920px;
 width: 75px;
 background-color:#a6e1fd93;
 border: 1px solid rgba(88, 88, 88, 0.774);
@@ -296,3 +301,42 @@ border: 1px solid rgba(88, 88, 88, 0.774);
 }
 
 /* ------RESPONSIVE------ */
+@media(max-width: 660px){
+    .main-index img{
+        width: 500px;
+        height: auto;
+        padding: 0;
+    }
+    .main-index div{
+        padding-bottom: 60px;
+    }
+
+}
+
+@media(max-width: 500px){
+    .main-index img{
+        width: 300px;
+        height: auto;
+        padding: 0;
+    }
+    .main-index h4{
+        font-size: medium;
+    }
+}
+@media(max-width: 540px){
+    .form-floating{
+        width: 300px;
+    }
+}
+@media(max-width: 450px){
+    .direc-cont iframe{
+        width: 300px;
+        height: 200px;
+    }
+}
+
+@media(max-width: 991px){
+    .navbar-toggler{
+        justify-content: flex-end;
+    }
+}
