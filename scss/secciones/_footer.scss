@@ -1,0 +1,27 @@
+
+/* ------FOOTER------ */
+.footer {
+    background-color: $celeste;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif, 'Times New Roman', Times, serif, Cochin, Georgia, Times, 'Times New Roman', serif, Helvetica, sans-serif, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Times, serif, Tahoma, Geneva, Verdana, sans-serif, 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-color: gold;
+    border-style: solid;
+    .ul-footer {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 20px;
+        a {
+            color: $negro;
+        }
+        img {
+            width: 35px;
+            height: auto;
+        }
+        li {
+            &:hover {
+                transform: scale(1.1);
+                transition: 0.6s;
+            }
+        }
+
+    }
+}

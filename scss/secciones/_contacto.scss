@@ -1,0 +1,29 @@
+/* ------CONTACTO------ */
+.form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    .form-floating {
+        text-align: center;
+        width: 500px;
+        &:hover{
+            transform: scale(1.1);
+        
+        }
+    }
+    .enviar {
+        width: 75px;
+        background-color: $celeste;
+        border: 1px solid rgba(88, 88, 88, 0.774);
+        margin: 10px;
+        border-radius: 8px;
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
+}
+.direc-cont {
+    text-align: center;
+    font-family: $letra;
+    margin-top: 30px;
+}

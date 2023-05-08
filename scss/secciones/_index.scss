@@ -1,0 +1,26 @@
+
+/* ------INDEX------ */
+.main-index {
+    font-size: 20px;
+    font-family: $letra;
+    margin-bottom: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 40px;
+    flex-wrap: wrap;
+    .index {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        img {
+            width: 600px;
+            height: 450px;
+            padding: 60px;
+        }
+        &:hover{
+            transform: scale(1.1);
+            transition: 1s;        
+        }        
+    }
+}

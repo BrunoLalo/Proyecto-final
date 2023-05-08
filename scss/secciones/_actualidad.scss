@@ -1,0 +1,24 @@
+/* ------ACTUALIDAD------ */
+.main-act {
+    font-family: $letra;
+    img {
+        width: 600px;
+        height: 450px;
+        padding: 60px;
+    }
+    h2 {
+        font-family: $letra;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        font-weight: lighter;
+    }
+    h5 {
+        font-size: x-large;
+        text-align: center;
+    }
+    button {
+        @include btn-volver
+    }
+
+}

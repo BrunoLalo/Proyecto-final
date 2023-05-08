@@ -1,0 +1,153 @@
+/* ------RESPONSIVE------ */
+
+@media(max-width: 1600px) {
+    .p-derecho {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .p-reverso {
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media(max-width: 1000px) {
+    p {
+        padding: 100px;
+    }
+}
+
+@media(max-width: 991px) {
+    .navbar-nav {
+        flex-direction: column;
+        align-items: flex-end;
+    }
+}
+
+@media(max-width: 660px) {
+    .index {
+        a {
+            img {
+                width: 500px;
+                height: auto;
+                padding: 0;
+            }
+        }
+        div {
+            padding-bottom: 60px;
+        }
+    }
+
+    .row {
+        img {
+            width: 300px;
+            height: auto;
+        }
+    }
+
+
+}
+
+
+@media(max-width: 600px) {
+    .main-act {
+        img {
+            width: 400px;
+            height: auto;
+            padding: 0;
+        }
+    }
+
+    .main-hist {
+        img {
+            width: 400px;
+            height: auto;
+            padding: 0;
+        }
+    }
+
+    p {
+        padding: 80px;
+    }
+}
+
+
+@media(max-width: 500px) {
+    .index {
+        img {
+            width: 300px;
+            height: auto;
+            padding: 0;
+        }
+
+        h4 {
+            font-size: medium;
+        }
+    }
+
+}
+
+@media(max-width: 540px) {
+    .form-floating {
+        input {
+            width: 300px;
+            text-align: center;
+        }
+
+        textarea {
+            width: 300px;
+            align-items: center;
+        }
+    }
+}
+
+@media(max-width: 450px) {
+    .direc-cont {
+        iframe {
+            width: 300px;
+            height: 200px;
+        }
+    }
+
+    .main-act {
+        img {
+            width: 280px;
+            height: auto;
+        }
+    }
+
+    .main-hist {
+        img {
+            width: 280px;
+            height: auto;
+        }
+    }
+
+    p {
+        padding: 50px;
+    }
+}
+
+@media(max-width:400px) {
+    .navbar {
+        img {
+            height: 100px;
+        }
+    }
+
+    .ul-footer {
+        img {
+            width: 25px;
+            height: auto;
+        }
+        li {
+            font-size: small;
+        }
+    }
+}

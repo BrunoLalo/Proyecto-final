@@ -1,0 +1,23 @@
+/* ------HISTORIA------ */
+.main-hist {
+    font-family: $letra;
+    h3 {
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        font-weight: lighter;
+    }
+    h5 {
+        font-size: x-large;
+        text-align: center;
+    }
+    img {
+        width: 600px;
+        height: auto;
+        padding: 60px;
+    }
+    button {
+        @include btn-volver
+    }
+    
+}
