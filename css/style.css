@@ -243,11 +243,11 @@ a {
     align-items: flex-end; } }
 
 @media (max-width: 660px) {
-  .index a img {
-    width: 500px;
+  .main-index .index a img {
+    width: 400px;
     height: auto;
     padding: 0; }
-  .index div {
+  .main-index .index div {
     padding-bottom: 60px; }
   .row img {
     width: 300px;
@@ -266,20 +266,21 @@ a {
     padding: 80px; } }
 
 @media (max-width: 500px) {
-  .index img {
-    width: 300px;
+  .main-index .index a img {
+    width: 200px;
     height: auto;
     padding: 0; }
-  .index h4 {
+  .main-index .index h4 {
     font-size: medium; } }
 
 @media (max-width: 540px) {
-  .form-floating input {
-    width: 300px;
-    text-align: center; }
-  .form-floating textarea {
-    width: 300px;
-    align-items: center; } }
+  .form {
+    align-items: center; }
+    .form .form-floating {
+      width: 300px;
+      text-align: center;
+      width: 300px;
+      align-items: center; } }
 
 @media (max-width: 450px) {
   .direc-cont iframe {
@@ -294,11 +295,11 @@ a {
   p {
     padding: 50px; } }
 
-@media (max-width: 400px) {
-  .navbar img {
+@media (max-width: 450px) {
+  .navbar .container-fluid img {
     height: 100px; }
-  .ul-footer img {
+  .footer .ul-footer img {
     width: 25px;
     height: auto; }
-  .ul-footer li {
+  .footer .ul-footer li {
     font-size: small; } }
